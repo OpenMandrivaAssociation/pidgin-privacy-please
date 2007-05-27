@@ -6,8 +6,7 @@ License:	GPL
 Group:		Networking/Instant messaging
 Url:		http://tools.desire.ch/pidgin-pp
 Source0:	http://tools.desire.ch/data/pidgin-pp/files/%{name}-%{version}.tar.bz2
-BuildRequires:	libpurple0-devel
-Requires:	pidgin
+BuildRequires:	pidgin-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
