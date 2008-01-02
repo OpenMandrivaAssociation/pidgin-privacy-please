@@ -8,6 +8,7 @@ Url:		http://tools.desire.ch/pidgin-pp
 Source0:	http://tools.desire.ch/data/pidgin-pp/files/%{name}-%{version}.tar.bz2
 BuildRequires:	pidgin-devel
 Requires:	pidgin
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Pidgin-privacy-please offers the following features:
