@@ -1,7 +1,7 @@
 Summary:	Pidgin plugin to stop spammers from annoying you
 Name:		pidgin-privacy-please
-Version:	0.5.4
-Release:	%mkrel 2
+Version:	0.6.0
+Release:	%mkrel 1
 License:	GPLv2+
 Group:		Networking/Instant messaging
 Url:		http://code.google.com/p/pidgin-privacy-please/
