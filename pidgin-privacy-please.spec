@@ -7,6 +7,7 @@ Group:		Networking/Instant messaging
 Url:		http://code.google.com/p/pidgin-privacy-please/
 Source0:	http://pidgin-privacy-please.googlecode.com/files/%{name}-%{version}.tar.gz
 BuildRequires:	pidgin-devel
+BuildRequires:	intltool
 Requires:	pidgin
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
