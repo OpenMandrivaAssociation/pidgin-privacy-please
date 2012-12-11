@@ -9,7 +9,6 @@ Source0:	http://pidgin-privacy-please.googlecode.com/files/%{name}-%{version}.ta
 BuildRequires:	pidgin-devel
 BuildRequires:	intltool
 Requires:	pidgin
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Pidgin-privacy-please offers the following features:
@@ -28,16 +27,9 @@ Pidgin-privacy-please offers the following features:
 %make
 
 %install
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
-
 %makeinstall_std
 %find_lang %{name}
 
-%clean
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
-
 %files -f %{name}.lang
-%defattr(-,root,root)
 %doc AUTHORS ChangeLog README
-%{_libdir}/pidgin/libpidgin_pp.la
 %{_libdir}/pidgin/libpidgin_pp.so
