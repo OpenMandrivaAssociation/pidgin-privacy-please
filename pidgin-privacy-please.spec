@@ -4,7 +4,7 @@ Version:	0.7.1
 Release:	2
 License:	GPLv2+
 Group:		Networking/Instant messaging
-Url:		http://code.google.com/p/pidgin-privacy-please/
+Url:		https://code.google.com/p/pidgin-privacy-please/
 Source0:	http://pidgin-privacy-please.googlecode.com/files/%{name}-%{version}.tar.gz
 BuildRequires:	pidgin-devel
 BuildRequires:	intltool
